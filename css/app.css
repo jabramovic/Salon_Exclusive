@@ -1,0 +1,159 @@
+
+body {background-color: #ffffff;}
+
+a {color: #878787;}
+a:hover {color: #333;}
+
+/* Navigacija */ 
+.header-nav, .logo, .helpers-nav {
+border-bottom: 1px solid #ccc;
+}
+@-webkit-keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+.helpers-nav.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: #ccc;
+	animation: fadeIn 2s;
+}
+.dodajMarginu {
+	padding-bottom:50px;
+}
+.social-network, .main-nav, .secondary-nav {
+list-style-type: none;
+margin-bottom: 0px;
+}
+.social-network li, .main-nav li, .secondary-nav li {
+display: inline;
+margin-right: 12px;
+margin-left: 12px;
+}
+.secondary-nav {
+height: 50px;
+line-height: 50px;
+}
+.social-network, .main-nav {
+height: 35px;
+line-height: 35px;
+}
+/* Logo */ 
+.logo h1 {
+padding: 30px;
+font-size: 68px;
+}
+/* Glavni postovi */ 
+
+.top-news {
+margin-top: 80px;
+margin-bottom: 80px;
+box-sizing: border-box;
+color: #fff;
+}
+
+.top-news article {
+position: relative;
+height: 279px;
+padding: 20px;
+margin-bottom: 2px;
+margin-right: 2px;
+}
+.top-news .top-post {
+height: 560px;
+}
+.top-news article header {
+position: absolute;
+bottom: 10px;
+}
+.img1 {
+background-image: url('../images/img4.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.img2 {
+background-image: url('../images/img2.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.img3 {
+background-image: url('../images/img3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.top-news article header p {
+margin-bottom: 0px;
+text-transform: uppercase;
+font-size: 12px;
+}
+.top-news article header h2 {
+font-weight: 600;
+font-size: 36px;
+}
+.top-news article header h2 a {
+font-weight: 600;
+font-size: 36px;
+color: #fff;
+}
+/* NEWS */
+.box {
+border-top: 1px solid #ccc;
+padding-bottom: 20px;
+}
+.news h3 {
+font-size: 22px;
+text-transform: capitalize;
+margin-bottom: 20px;
+color: #333;
+}
+.news .post {
+margin-bottom: 30px;
+}
+.news img {
+width: 100%;
+}
+.news .post header {
+margin-bottom: 15px;
+}
+.news .post header h4 a {
+color: black;
+}
+.news .post article span {
+font-size: 14px;
+color: #878787;
+}
+.news .sidebar {
+list-style: none;
+margin-left: 0px;
+}
+
+.news .sidebar header h5 a {
+	color: #333;
+	font-size: 18;
+}
+.news .sidebar article {
+	margin-top: 10px;
+	color: 878787;
+	font-size: 14px;
+}
+.news .sidebar li {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.news .sidebar li:not(:last-child) {
+	border-bottom: 1px solid #ccc;
+}
+/*FOOTER*/
+
+.footer {
+	background-color: #201d1d;
+	color: #878787;
+	padding-top: 10px;
+	
+	}
